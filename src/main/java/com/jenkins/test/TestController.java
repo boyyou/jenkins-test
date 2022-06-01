@@ -17,7 +17,7 @@ public class TestController {
 
     @GetMapping("/user/{name}")
     public String testUser(@PathVariable("name") String name){
-        return "my name is "+name+"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 !xxx";
+        return "my name is "+name+"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 !xxxyyy";
     }
 
 }
